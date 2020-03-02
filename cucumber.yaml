@@ -1,5 +1,5 @@
 ---
 default: -p html
-ci: -p json
+ci: -p json -p pretty
 html: --format html --out=log/report.html
 json: --format json --out=log/report.json
